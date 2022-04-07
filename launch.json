@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debugger Function",
+      "program": "${workspaceFolder}/.vscode/debug.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "pwa-node",
+      "console": "externalTerminal"
+    }
+  ]
+}
